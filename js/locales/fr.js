@@ -25,8 +25,8 @@
         msgNoFilesSelected: '',
         msgCancelled: 'Annulé',
         msgZoomModalHeading: 'Aperçu détaillé',
-        msgFileRequired: 'You must select a file to upload.',
-        msgSizeTooSmall: 'File "{name}" (<b>{size} KB</b>) is too small and must be larger than <b>{minSize} KB</b>.',
+        msgFileRequired: 'Vous devez sélectionner un fichier à charger.',
+        msgSizeTooSmall: 'Le fichier "{name}" (<b>{size} Ko</b>) est trop petit et doit être plus lourd que <b>{minSize} Ko</b>.',
         msgSizeTooLarge: 'Le fichier "{name}" (<b>{size} Ko</b>) dépasse la taille maximale autorisée qui est de <b>{maxSize} Ko</b>.',
         msgFilesTooLess: 'Vous devez sélectionner au moins <b>{n}</b> {files} à transmettre.',
         msgFilesTooMany: 'Le nombre de fichier sélectionné <b>({n})</b> dépasse la quantité maximale autorisée qui est de <b>{m}</b>.',
@@ -35,7 +35,7 @@
         msgFileNotReadable: 'Le fichier "{name}" est illisble.',
         msgFilePreviewAborted: 'Prévisualisation du fichier "{name}" annulée.',
         msgFilePreviewError: 'Une erreur est survenue lors de la lecture du fichier "{name}".',
-        msgInvalidFileName: 'Invalid or unsupported characters in file name "{name}".',
+        msgInvalidFileName: 'Caractères non-valide ou non-supporté dans le nom du fichier "{name}".',
         msgInvalidFileType: 'Type de document invalide pour "{name}". Seulement les documents de type "{types}" sont autorisés.',
         msgInvalidFileExtension: 'Extension invalide pour le fichier "{name}". Seules les extensions "{extensions}" sont autorisées.',
         msgFileTypes: {
@@ -49,10 +49,10 @@
             'object': 'object'
         },
         msgUploadAborted: 'Le téléchargement du fichier a été interrompu',
-        msgUploadThreshold: 'Processing...',
-        msgUploadBegin: 'Initializing...',
-        msgUploadEnd: 'Done',
-        msgUploadEmpty: 'No valid data available for upload.',
+        msgUploadThreshold: 'En cours...',
+        msgUploadBegin: 'Initialisation...',
+        msgUploadEnd: 'Terminé',
+        msgUploadEmpty: 'Pas de données valides disponnibles pour le chargement.',
         msgValidationError: 'Erreur de validation',
         msgLoading: 'Transmission du fichier {index} sur {files}&hellip;',
         msgProgress: 'Transmission du fichier {index} sur {files} - {name} - {percent}% faits.',
@@ -64,8 +64,8 @@
         msgImageHeightLarge: 'Hauteur de fichier image "{name}" ne peut pas dépasser {size} px.',
         msgImageResizeError: "Impossible d'obtenir les dimensions de l'image à redimensionner.",
         msgImageResizeException: "Erreur lors du redimensionnement de l'image.<pre>{errors}</pre>",
-        msgAjaxError: 'Something went wrong with the {operation} operation. Please try again later!',
-        msgAjaxProgressError: '{operation} failed',
+        msgAjaxError: 'L\'opération {operation} ne s\'est pas déroulée correctement. Essayez plus tard.',
+        msgAjaxProgressError: 'L\'opération {operation} a échouée',
         ajaxOperations: {
             deleteThumb: 'file delete',
             uploadThumb: 'file upload',
@@ -73,24 +73,24 @@
             uploadExtra: 'form data upload'
         },
         dropZoneTitle: 'Glissez et déposez les fichiers ici&hellip;',
-        dropZoneClickTitle: '<br>(or click to select {files})',
+        dropZoneClickTitle: '<br>(ou cliquez pour sélectionner les {files})',
         fileActionSettings: {
             removeTitle: 'Supprimer le fichier',
             uploadTitle: 'Télécharger un fichier',
             zoomTitle: 'Voir les détails',
-            dragTitle: 'Move / Rearrange',
+            dragTitle: 'Déplacer / Réarranger',
             indicatorNewTitle: 'Pas encore téléchargé',
             indicatorSuccessTitle: 'Posté',
             indicatorErrorTitle: 'Ajouter erreur',
             indicatorLoadingTitle: 'ajout ...'
         },
         previewZoomButtonTitles: {
-            prev: 'View previous file',
-            next: 'View next file',
+            prev: 'Voir le fichier précédent',
+            next: 'Voir le fichier suivant',
             toggleheader: 'Toggle header',
             fullscreen: 'Toggle full screen',
             borderless: 'Toggle borderless mode',
-            close: 'Close detailed preview'
+            close: 'Fermer l\'aperçu'
         }
     };
 })(window.jQuery);
